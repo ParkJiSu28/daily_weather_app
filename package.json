@@ -1,0 +1,28 @@
+{
+  "name": "daily_weather_app",
+  "version": "1.0.0",
+  "description": "Daily_weather",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "aws-sdk": "^2.292.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^4.13.14",
+    "multer": "^1.3.1",
+    "multer-s3": "^2.7.0",
+    "nodemon": "^1.18.3",
+    "parse-int": "^1.0.2",
+
+  },
+  "devDependencies": {}
+}
